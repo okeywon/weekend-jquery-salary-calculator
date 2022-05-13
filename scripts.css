@@ -33,11 +33,6 @@ h1 {
     height: 2%;
 }
 
-#submitButton {
-    display: inline-block;
-    margin-left: 60%;
-}
-
 #theWholeTable {
     font-family: Helvetica;
     margin: 1%;
