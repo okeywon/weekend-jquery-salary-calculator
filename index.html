@@ -6,10 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="jquery.js"></script>
     <script src="scripts.js"></script>
-    <link rel="stylesheet" href="script.css"></script>
+    <link rel="stylesheet" href="scripts.css"></script>
     <title>Document</title>
 </head>
 <body>
     <h1>Salary Calculator</h1>
+    <h2>Add Employee</h2>
+
+    <input id="firstNameInput" type="text" placeholder="First Name">
+    <input id="lastNameInput" type="text" placeholder="Last Name">
+    <input id="idInput" type="text" placeholder="ID">
+    <input id="titleInput" type="text" placeholder="Title">
+    <input id="salaryInput" placeholder="Annual Salary">
+
+    <button id="submitButton">Submit</button>
+
+    <h2>Employees</h2>
+
+    <table>
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jared</td>
+                <td>Smith</td>
+                <td>123456</td>
+                <td>Boss</td>
+                <td>200,000</td>
+                <td><button>Delete</button></td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <h2>Total Monthly:</h2>
 </body>
 </html>
