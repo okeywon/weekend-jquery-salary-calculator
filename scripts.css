@@ -48,6 +48,6 @@ h1 {
     text-align: left;
 }
 
-#bodyOfTable {
-
-}
+#bodyOfTable
+    tr:nth-child(odd) {background: #FFF}
+    tr:nth-child(even) {background: #CCC}
